@@ -58,19 +58,11 @@ class Song
   
   
   def self.new_from_filename(name)
-    @arr1=name.split(" - ")
-    @arr2=@arr1[1].split(".")
-    @singer_name=@arr1[0]
-    @song_name=@arr2[0]
-
-    song=self.new
-    song.name=@song_name
-    song.artist_name=@singer_name
-
-    
-    song
-    
-  end
+  
+    arr=name.split("-")
+  
+  
+ end 
     
     
 
