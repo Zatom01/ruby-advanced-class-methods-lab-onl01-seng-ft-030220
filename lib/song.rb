@@ -57,7 +57,7 @@ class Song
   end 
   
   
-  def self.new_from_filename(name)
+  def self.create_from_filename(name)
     @arr1=name.split(" - ")
     @arr2=@arr1[1].split(".")
     @singer_name=@arr1[0]
