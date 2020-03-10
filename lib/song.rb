@@ -46,19 +46,15 @@ class Song
       self.find_by_name(song_name)
     else
       self.create_by_name(song_name)
-      
-      
     end
-    
-      # if song.name!= song_name
-      #   song=self.new
-      #   song.name=song_name
-        
-      # else
-      #   song.name=song_name
-        
      
   end
+  
+  def self.alphabetical
+    @@all.sort
+    
+  
+ end 
 
     
     
