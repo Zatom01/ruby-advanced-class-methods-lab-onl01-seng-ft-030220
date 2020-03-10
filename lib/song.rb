@@ -68,7 +68,7 @@ class Song
     song.artist_name=@singer_name
     
     self.all<<song
-    song
+    
     
     
   end
