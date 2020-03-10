@@ -53,9 +53,11 @@ class Song
   def self.alphabetical
     @sorted=[]
     @@all.each do |inst|
-      @sorted=inst.sort
+      @sorted<<inst
     end
-    @sorted
+    
+    @sorted.sort
+    
   end 
     
     
