@@ -51,19 +51,18 @@ class Song
   end
   
   def self.alphabetical
-  
-  
     @@all.sort_by do |a|
       a.name
     end 
-    # @sorted=[]
-    # @@all.each do |inst|
-    #   @sorted<<inst.name
-    # end
-    
-    # @sorted.sort
-    
   end 
+  
+  
+  def self.new_from_filename(name)
+  
+    arr=name.split("-")
+  
+  
+ end 
     
     
 
